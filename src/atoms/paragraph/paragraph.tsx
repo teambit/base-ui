@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import { PossibleSizes } from '../../../constants/sizes';
+import { PossibleSizes } from '../../constants/sizes';
 import styles from './paragraph.module.scss';
 
 export type ParagraphProps = {
