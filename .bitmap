@@ -352,24 +352,6 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base/layout/grid-presets/four-grid@1.0.2": {
-        "files": [
-            {
-                "relativePath": "src/layout/grid-presets/four-grid/four-grid.module.scss",
-                "test": false,
-                "name": "four-grid.module.scss"
-            },
-            {
-                "relativePath": "src/layout/grid-presets/four-grid/index.ts",
-                "test": false,
-                "name": "index.ts"
-            }
-        ],
-        "mainFile": "src/layout/grid-presets/four-grid/index.ts",
-        "trackDir": "src/layout/grid-presets/four-grid",
-        "origin": "AUTHORED",
-        "exported": true
-    },
     "bit.base/layout/grid-presets/four-way-grid@1.0.2": {
         "files": [
             {
