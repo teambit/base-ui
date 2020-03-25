@@ -1,0 +1,10 @@
+// elevations only
+.low {
+    box-shadow: var(--elevation-low, initial);
+}
+.medium {
+    box-shadow: var(--elevation-medium, initial);
+}
+.high {
+    box-shadow: var(--elevation-high, initial);
+}

@@ -1,0 +1,7 @@
+$staticStorageUrl: 'https://static.bit.dev';
+// or... uncached for dev:
+// $staticStorageUrl: 'https://storage.cloud.google.com/static.bit.dev';
+
+:export {
+	staticStorageUrl: $staticStorageUrl
+}

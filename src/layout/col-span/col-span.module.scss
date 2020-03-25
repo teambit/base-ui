@@ -1,0 +1,32 @@
+@import '../_breakpoints.scss';
+
+$breakpoints: //name val
+xs $br-xs,
+sm $br-sm,
+md $br-md,
+l $br-l,
+lg $br-lg,
+// lg $br-lg,
+xl $br-xl;
+
+
+@for $i from 1 through 12 {
+	@each $breakpoint in $breakpoints {
+		$brName: nth($breakpoint, 1);
+		$brVal: nth($breakpoint, 2);
+
+		@media only screen and (min-width: $brVal) {
+			.colSpan {
+				&--#{$brName}-#{$i} {
+					grid-column-end: span $i;
+				}
+			}
+		}
+	}
+
+	.colSpan {
+		&---#{$i} {
+			grid-column-end: span $i;
+		}
+	}
+}

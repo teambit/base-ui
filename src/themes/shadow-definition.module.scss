@@ -1,0 +1,19 @@
+/**
+ * # Shadow definitions
+ * Shadow CSS-variables definitions.
+ * ```
+ * --elevation-none: none;
+ * --elevation-low: 0px 2px 4px rgba(0, 0, 0, 0.09);
+ * --elevation-medium: 0px 2px 8px rgba(0, 0, 0, 0.09);
+ * --elevation-high: 0px 11px 29px 0px rgba(0, 0, 0, 0.23);
+ * ```
+ *
+ * To use, add class `shadowTheme` to your root component.
+ */
+
+.shadowTheme {
+  --elevation-none: none;
+  --elevation-low: 0px 2px 4px rgba(0, 0, 0, 0.09);
+  --elevation-medium: 0px 2px 8px rgba(0, 0, 0, 0.09);
+  --elevation-high: 0px 11px 29px 0px rgba(0, 0, 0, 0.23);
+}

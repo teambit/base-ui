@@ -1,0 +1,11 @@
+.separator {
+	border-bottom: 1px solid var(--separator-color, #ededed);
+	width: 100%;
+}
+
+.vertical {
+	width: 1px;
+	height: 100%;
+	border-bottom-width: 0px;
+	border-right: 1px solid var(--separator-color, #ededed);
+}

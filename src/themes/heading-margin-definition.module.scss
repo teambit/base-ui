@@ -1,0 +1,23 @@
+/**
+ * # Heading margins
+ * Margin css-variables definitions for headlines.
+ * -   `--h1Margin: 20px;`
+ * -   `--h2Margin: 20px;`
+ * -   `--h3Margin: 20px;`
+ * -   `--h4Margin: 8px;`
+ * -   `--h5Margin: 8px;`
+ * -   `--h6Margin: 8px;`
+ * -   `--h7Margin: 8px;`
+ *
+ * To use, add class `headingMargins` to your root component.
+ */
+
+.headingMargins {
+    --h1Margin: 20px;
+    --h2Margin: 20px;
+    --h3Margin: 20px;
+    --h4Margin: 8px;
+    --h5Margin: 8px;
+    --h6Margin: 8px;
+    --h7Margin: 8px;
+  }

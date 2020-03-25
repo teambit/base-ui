@@ -1,0 +1,18 @@
+.label {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 6px;
+	max-width: var(--primary-label-width, 50px);
+	width: 100%;
+	height: var(--primary-label-height, 30px);
+	padding: 0 15px;
+
+	font-size: 12px;
+	font-weight: bold;
+
+	background-color: var(--base-color, #6c5ce7);
+	color: var(--primary-label-text, white);
+}

@@ -1,0 +1,53 @@
+//@HACK - fonts don't work with storage.cloud.google.com
+$staticStorageUrl: 'https://static.bit.dev';
+
+/**
+ * # Book fonts
+ * Define @font-face rules for font-family Circular Pro Book, including bold and italic.  
+ * Provides a handy class name to add to root component.
+ *
+ * @example
+ * import { bookFont } from '@bit/bit.base.theme.fonts.book';
+ * //...
+ *
+ * <body className={bookFont}>
+ *   <div>I'm using font!</div>
+ *   <div style={{ fontWeight: 'bold'}}>I am BOLD</div>
+ * </body>
+ */
+
+@font-face {
+	font-family: "CircularPro";
+	src: url($staticStorageUrl + '/fonts/CircularPro-Book.otf');
+}
+
+@font-face {
+	font-family: "CircularPro";
+	src: url($staticStorageUrl + '/fonts/CircularPro-Bold.otf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "CircularPro";
+	src: url($staticStorageUrl + '/fonts/CircularPro-BookItalic.otf');
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "CircularPro";
+	src: url($staticStorageUrl + '/fonts/CircularPro-BlackItalic.otf');
+	font-style: italic;
+	font-weight: bold;
+}
+
+//@HACK - legacy fonts:
+@font-face {
+	font-family: "circularProBold";
+	src: url($staticStorageUrl + '/fonts/CircularPro-Bold.otf');
+	font-weight: bold;
+}
+
+.bookFont {
+	font-family: "CircularPro", "Gill Sans", "Gill Sans MT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	;
+}

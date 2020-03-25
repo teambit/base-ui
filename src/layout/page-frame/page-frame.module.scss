@@ -1,0 +1,17 @@
+.centerColumn {
+	width: calc(100% - 40px);
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wideColumn {
+	width: calc(100% - 40px);
+	max-width: 1440px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.textColumn {
+	max-width: 700px;
+}

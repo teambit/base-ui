@@ -1,0 +1,72 @@
+@import "../../_breakpoints.scss";
+
+.zGrid {
+	grid-row-gap: 50px;
+	margin-bottom: 50px;
+	
+	grid-template-areas:
+		"it1"
+		"im1"
+		"."
+		"it2"
+		"im2"
+		".";
+
+	:nth-child(1) {
+		grid-area: it1;
+	}
+
+	:nth-child(2) {
+		grid-area: im1;
+	}
+
+	:nth-child(3) {
+		grid-area: it2;
+	}
+
+	:nth-child(4) {
+		grid-area: im2;
+	}
+
+	@media (min-width: $br-md) {
+		grid-template-areas:
+			"it1 it1 it1 it1 it1 it1 im1 im1 im1 im1 im1 im1"
+			"im2 im2 im2 im2 im2 im2 it2 it2 it2 it2 it2 it2";
+
+		grid-row-gap: 80px;
+		margin-bottom: 80px;
+	}
+
+	@media (min-width: $br-lg) {
+		grid-template-areas:
+			"it1 it1 it1 it1 it1 im1 im1 im1 im1 im1 im1 im1"
+			"im2 im2 im2 im2 im2 im2 im2 it2 it2 it2 it2 it2";
+
+		grid-row-gap: 80px;
+		margin-bottom: 80px;
+	}
+}
+
+.halfZGrid {
+	grid-template-areas:
+		"it1"
+		"im1";
+
+	:nth-child(1) {
+		grid-area: it1;
+	}
+
+	:nth-child(2) {
+		grid-area: im1;
+	}
+
+	@media (min-width: $br-md) {
+		grid-template-areas:
+			"it1 it1 it1 it1 it1 it1 im1 im1 im1 im1 im1 im1";
+	}
+
+	@media (min-width: $br-lg) {
+		grid-template-areas:
+			"it1 it1 it1 it1 it1 im1 im1 im1 im1 im1 im1 im1";
+	}
+}

@@ -1,0 +1,47 @@
+@import './colors.module.scss';
+
+/**
+ * # Color Definitions
+ * CSS colors and variables for the app.
+ *
+ * -   Sets default text color
+ * -   `--base-color` - default color (cta color, etc)
+ * -   `--base-highlight` - default color for highlight (cta hover, etc)
+ * -   `--border-color`
+ * -   `--bg-color` - background color
+ * -   `--separator-color`
+ */
+
+.primaryPalette {
+    color: $d50;
+    --base-color: #{$p50};
+    --base-highlight: #{$p60};
+
+    --border-color: #{$w20};
+    --bg-color: #{$w10};
+    --separator-color: #{$d20};
+
+    --primary-button-bg: #{$w10};
+    --primary-button-width: 199px;
+    --primary-button-height: 46px;
+    --cta-button-text: #{$w10};
+    --primary-label-bg: #{$p50};
+    --primary-label-text: #{$w10};
+    --primary-label-width: 50px;
+}
+
+// .winPalette {
+//     color: $d50;
+//     --base-color: #{$g50};
+//     --cta-button-bg: #{$g50};
+// }
+
+// .secondaryPalette {//todo - blue rename
+//     color: $d50;
+//     --base-color: #{$b50};
+// }
+
+// .complementaryPalette { //todo - pink rename
+//     color: $d50;
+//     --base-color: #{$pink};
+// }

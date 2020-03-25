@@ -1,0 +1,93 @@
+@import '../_breakpoints.scss';
+
+$breakpoints: //name val
+xs $br-xs,
+sm $br-sm,
+md $br-md,
+l $br-l,
+lg $br-lg,
+xl $br-xl;
+
+
+.text {
+	&-left {
+		text-align: left;
+	}
+
+	&-center {
+		text-align: center;
+	}
+
+	&-right {
+		text-align: right;
+	}
+	@each $breakpoint in $breakpoints {
+		$brName: nth($breakpoint, 1);
+		$brVal: nth($breakpoint, 2);
+		@media only screen and (min-width: $brVal) {
+				&-#{$brName} {
+					&-left {
+						text-align: left;
+					}
+				
+					&-center {
+						text-align: center;
+					}
+				
+					&-right {
+						text-align: right;
+					}
+				}
+				
+		}
+	}
+}
+
+
+.justifyItems {
+	&-left {
+		justify-items: left;
+	}
+
+	&-center {
+		justify-items: center;
+	}
+
+	&-right {
+		justify-items: right;
+	}
+}
+
+.alignItems {
+	&-start {
+		align-items: start;
+	}
+
+	&-center {
+		align-items: center;
+	}
+
+	&-end {
+		align-items: end;
+	}
+}
+
+//TODO - rename justifySelf and add alignSelf
+.self {
+	&-left {
+		justify-self: left;
+	}
+
+	&-center {
+		justify-self: center;
+	}
+
+	&-right {
+		justify-self: right;
+	}
+}
+
+.marginCenter {
+	margin-right: auto;
+	margin-left: auto;
+}
