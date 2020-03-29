@@ -13,6 +13,10 @@ export type CardProps = {
 
 /**
  * A wrapper resembling a physical card, grouping elements and improve readability.
+ * @example
+ * <Card elevation="medium">
+ * 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ * </Card>
  */
 export function Card({ className, elevation = 'low', ...rest }: CardProps) {
 	return (

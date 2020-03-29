@@ -2,6 +2,8 @@
 /**
  * Preset sizes enum, used across the application
  * @name PossibleSizes
+ * @example
+ * <Paragraph size={PossibleSizes.md} />
  */
 
 export enum PossibleSizes {

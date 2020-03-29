@@ -39,10 +39,10 @@ function C() {
 ```
 
 ## Breakpoints:
--   colSpan `(all)`
--   colSpanXs `360px`
--   colSpanSm `480px`
--   colSpanMd `768px`
--   colSpanL `920px`
--   colSpanLg `1080px`
--   colSpanXl `1440px`
+-   (default)	`(all)`
+-   xs	`360px`
+-   sm	`480px`
+-   md	`768px`
+-   l	`920px`
+-   lg	`1080px`
+-   xl	`1440px`

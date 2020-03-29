@@ -5,11 +5,11 @@ export type ResizeToMatchReferenceOptions = {
 };
 
 /**
- * @name resizeToMatchReference
  * # Resize to match Reference
  * A [Popper.js](https://popper.js.org/) plugin.
  *
  * Scales popper to be the same size as the reference element
+ * @name resizeToMatchReference
  */
 
 export const resizeToMatchReference: Modifier<ResizeToMatchReferenceOptions> = {

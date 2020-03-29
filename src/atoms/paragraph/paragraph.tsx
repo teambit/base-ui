@@ -5,15 +5,19 @@ import { PossibleSizes } from '../../constants/sizes';
 import styles from './paragraph.module.scss';
 
 export type ParagraphProps = {
+	/**
+	 * Font size (from a list of presets).
+	 */
 	size: PossibleSizes;
+	/**
+	 * The underlying html element
+	 */
 	element: 'p' | 'div' | 'span';
 } & React.HTMLAttributes<HTMLParagraphElement>;
 
 /**
- * Template component for paragraph.
+ * Paragraph component prototype. Accepts all properties of a native Paragraph element,
  * @name paragraph
- * @param element The underlying html element (default - 'p')
- * @param size Font size, from a list of presets (default - 'md')
  * @example
  * <Paragraph size="sm">This is some text</Paragraph>
  */

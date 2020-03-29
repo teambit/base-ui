@@ -7,10 +7,17 @@
 * $br-xs: 360px;
 * $br-sm: 480px;		//mobile
 * $br-md: 768px;		
-* $br-l: 920px;			//tablet
+* $br-l: 920px;		//tablet
 * $br-lg-new: 1200px;	//laptop
 * $br-xl: 1440px;
 * $br-xxl: 1920px;
+* ```
+* 
+* ## example
+* ```tsx
+* .content @media screen and (min-width: $br-l) {
+*   display: flex;
+* } 
 * ```
 */
 
