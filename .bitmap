@@ -205,6 +205,24 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "bit.base/atoms/pill@0.0.2": {
+        "files": [
+            {
+                "relativePath": "src/atoms/pill/index.ts",
+                "test": false,
+                "name": "index.ts"
+            },
+            {
+                "relativePath": "src/atoms/pill/pill.module.scss",
+                "test": false,
+                "name": "pill.module.scss"
+            }
+        ],
+        "mainFile": "src/atoms/pill/index.ts",
+        "trackDir": "src/atoms/pill",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "bit.base/atoms/separator@1.0.4": {
         "files": [
             {
