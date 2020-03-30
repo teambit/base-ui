@@ -2,14 +2,25 @@
 <a href="https://opensource.org/licenses/Apache-2.0"><img alt="apache" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
 <a href="https://github.com/teambit/example-templates/blob/master/README.md#contributing"><img alt="prs" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
 
-# Base UI
+# Base component design system of [Bit.dev](https://bit.dev).
 
-A component first UI design system.  
-This Scope provides all the basic UI elements that other pages use and compose.
-![screenshot](./docs/scope-screenshot.png)
+This codebe contains the basic ui components of Bit.dev built with React.
+
+This repo is a **component-based micro-frontend** with a set of independently-useful React components, which are[exposed as a Bit component collection](https://bit.dev/bit/base) and then integrated into the bit.dev platform and website.
+
+[![screenshot](./docs/scope-screenshot.png)](https://bit.dev/bit/base)
+
+
+## Component collection - choose and use
+
+See the **[base collection on bit.dev](https://bit.dev/bit/base)** to:
+
+- Install independent component with npm/yarn.
+- Use `bit import` to source and edit components locally for quick integration. Keep getting managed updates.
+- Try any component hands-on in a live playground.
+
 
 ## Structure:
-See all components [here](https://bit.dev/bit/base)!
 
 ### Theme
 All shared styles, colors, sizes, fonts, and css variables, belong here.  
