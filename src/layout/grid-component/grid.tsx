@@ -18,31 +18,31 @@ type GridProps = {
 	/**
 	 * default column count (1-12)
 	 */
-	col?: ColCount;
+	col?: ColCount,
 	/**
 	 * column count at extremely small devices
 	 */
-	colXs?: ColCount;
+	colXs?: ColCount,
 	/**
 	 * column count at mobile screens
 	 */
-	colSm?: ColCount;
+	colSm?: ColCount,
 	/**
 	 * column count at medium devices
 	 */
-	colMd?: ColCount;
+	colMd?: ColCount,
 	/**
 	 * column count at tablets
 	 */
-	colL?: ColCount;
+	colL?: ColCount,
 	/**
 	 * default column count at laptops
 	 */
-	colLg?: ColCount;
+	colLg?: ColCount,
 	/**
 	 * default column count at desktop
 	 */
-	colXl?: ColCount;
+	colXl?: ColCount,
 } & React.HTMLAttributes<HTMLDivElement>;
 
 /**

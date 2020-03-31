@@ -8,7 +8,7 @@ export type CardProps = {
 	 * Controls the shadow cast by the card, to generate a "stacking" effects.
 	 * For example, a modal floating over elements may have a 'high' elevation
 	 */
-	elevation?: 'none' | 'low' | 'medium' | 'high';
+	elevation?: 'none' | 'low' | 'medium' | 'high',
 } & React.HTMLAttributes<HTMLDivElement>;
 
 /**

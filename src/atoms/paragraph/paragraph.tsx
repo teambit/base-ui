@@ -8,11 +8,11 @@ export type ParagraphProps = {
 	/**
 	 * Font size (from a list of presets).
 	 */
-	size: PossibleSizes;
+	size: PossibleSizes,
 	/**
 	 * The underlying html element
 	 */
-	element: 'p' | 'div' | 'span';
+	element: 'p' | 'div' | 'span',
 } & React.HTMLAttributes<HTMLParagraphElement>;
 
 /**

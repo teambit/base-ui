@@ -4,7 +4,7 @@ export type HeadingProps = {
 	/**
 	 * underlying html element ("h1", "h2", etc)
 	 */
-	element?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+	element?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6',
 } & React.HTMLAttributes<HTMLHeadingElement>;
 
 /**
