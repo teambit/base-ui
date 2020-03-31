@@ -2,7 +2,7 @@
 <a href="https://opensource.org/licenses/Apache-2.0"><img alt="apache" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
 <a href="https://github.com/teambit/example-templates/blob/master/README.md#contributing"><img alt="prs" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
 
-# Base component design system of Bit.dev.
+# Base component design system of Bit.dev
 
 The [reusable set of infra-level React components]([![screenshot](./docs/scope-screenshot.png)](https://bit.dev/bit/base)
 ) used to build [Bit.dev](https://bit.dev).
