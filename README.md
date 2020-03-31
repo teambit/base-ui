@@ -4,9 +4,9 @@
 
 # Base component design system of [Bit.dev](https://bit.dev).
 
-This codebe contains the basic ui components of Bit.dev built with React.
+This codebase contains the basic ui components of Bit.dev built with React.
 
-This repo is a **component-based micro-frontend** with a set of independently-useful React components, which are[exposed as a Bit component collection](https://bit.dev/bit/base) and then integrated into the bit.dev platform and website.
+This repo is a **component-based micro-frontend** with a set of independently-useful React components, which are [exposed as a Bit component collection](https://bit.dev/bit/base) and then integrated into the bit.dev platform and website.
 
 [![screenshot](./docs/scope-screenshot.png)](https://bit.dev/bit/base)
 
