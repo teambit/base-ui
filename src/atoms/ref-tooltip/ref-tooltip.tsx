@@ -1,34 +1,30 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-
+import { createPopper, Instance, Options } from '@popperjs/core';
 //@ts-ignore
 import createRef from 'react-create-ref';
-import { createPopper, Instance, Options } from '@popperjs/core';
 
 import styles from './ref-tooltip.module.scss';
 
 export type RefTooltipProps = {
-	/**
-	 * dom element to attach to
-	 */
-	targetElement?: HTMLElement;
-	/**
-	 * options for the underlying Popper.js position engine
-	 */
-	popperOptions?: Partial<Options>;
+	/** dom element to attach to */
+	targetElement?: HTMLElement,
+	/** options for the underlying Popper.js position engine */
+	popperOptions?: Partial<Options>,
 } & React.HTMLAttributes<HTMLDivElement>;
 
 /**
- * A [Popper.js](https://popper.js.org/) react wrapper that repositions children to be adjacent to a target element.  
+ * A [Popper.js](https://popper.js.org/) react wrapper that repositions children to be adjacent to a target element.
  * This component is a container only, with no visual styling.
+ *
  * @example
  * <RefTooltip targetElement={this.elementRef}>
  * 	I will show up next to the element!
  * </RefTooltip>
  */
 export class RefTooltip extends Component<RefTooltipProps> {
-	private ref = createRef();
-	private popperInstance?: Instance;
+	ref: any = createRef();
+	popperInstance: Instance | undefined;
 
 	componentWillUnmount() {
 		this.destroy();
@@ -42,7 +38,7 @@ export class RefTooltip extends Component<RefTooltipProps> {
 		}
 	}
 
-	private reposition = (targetElement?: HTMLElement) => {
+	reposition = (targetElement?: HTMLElement) => {
 		const { popperOptions = popperDefaultOptions } = this.props;
 		const popperElement = this.ref.current;
 
@@ -55,12 +51,12 @@ export class RefTooltip extends Component<RefTooltipProps> {
 		this.popperInstance = createPopper(targetElement, popperElement, popperOptions);
 	};
 
-	private destroy() {
+	destroy = () => {
 		if (!this.popperInstance) return;
 
 		this.popperInstance.destroy();
 		this.popperInstance = undefined;
-	}
+	};
 
 	render() {
 		const { className, targetElement, ...rest } = this.props;

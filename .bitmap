@@ -223,7 +223,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base/atoms/ref-tooltip@0.0.1": {
+    "bit.base/atoms/ref-tooltip@1.0.0": {
         "files": [
             {
                 "name": "index.ts",
@@ -464,7 +464,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base/theme/brand-definition@1.0.3": {
+    "bit.base/theme/brand-definition@1.0.5": {
         "files": [
             {
                 "relativePath": "src/themes/brand-definition.module.scss",
@@ -476,7 +476,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base/theme/color-definition@1.0.2": {
+    "bit.base/theme/color-definition@1.0.4": {
         "files": [
             {
                 "name": "color-definition.module.scss",
@@ -488,7 +488,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base/theme/colors@1.0.2": {
+    "bit.base/theme/colors@1.0.4": {
         "files": [
             {
                 "relativePath": "src/themes/colors.module.scss",
@@ -560,7 +560,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base/theme/theme-provider@1.0.6": {
+    "bit.base/theme/theme-provider@1.0.8": {
         "files": [
             {
                 "name": "index.tsx",
@@ -618,5 +618,5 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "version": "14.7.6"
+    "version": "14.7.7-dev.3"
 }
