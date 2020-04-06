@@ -23,7 +23,7 @@ export type BaseImageProps = {
 export function BaseImage({ alt, className, fullWidth, ...rest }: BaseImageProps) {
 	return (
 		<img
-			data-bit-id="bit.base/atoms/image"
+			data-bit-id="bit.base-ui/atoms/image"
 			alt={alt}
 			{...rest}
 			className={classNames(styles.image, fullWidth && styles.fullWidth, className)}

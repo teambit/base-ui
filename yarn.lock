@@ -1662,10 +1662,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bit/joshk.react-spinners-css.ellipsis@^1.1.7":
+"@bit/bit.base-ui.ellipsis@^1.1.7":
   version "1.1.7"
-  resolved "https://node.bitsrc.io/joshk.react-spinners-css.ellipsis/-/joshk.react-spinners-css.ellipsis-1.1.7.tgz#da30bf65dd22e3060269ece92504e8b4737616a3"
-  integrity sha1-2jC/Zd0i4wYCaezpJQTotHN2FqM=
+  resolved "https://node.bitsrc.io/bit.base-ui.ellipsis/-/bit.base-ui.ellipsis-1.1.7.tgz#c0635329f11bc210a02179e888a81c045237722e"
+  integrity sha1-wGNTKfEbwhCgIXnoiKgcBFI3ci4=
   dependencies:
     prop-types "^15.7.2"
 

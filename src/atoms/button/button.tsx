@@ -2,7 +2,7 @@ import React, { Component, ReactNode } from 'react';
 import classNames from 'classnames';
 
 //@ts-ignore
-import Spinner from '@bit/joshk.react-spinners-css.ellipsis';
+import Spinner from '@bit/bit.base-ui.ellipsis';
 
 import styles from './button.module.scss';
 
@@ -57,7 +57,7 @@ export default class Button extends Component<ButtonProps> {
 
 		return (
 			<button
-				data-bit-id="bit.base/atoms/button"
+				data-bit-id="bit.base-ui/atoms/button"
 				{...rest}
 				onClick={this.handleClick}
 				className={classNames(className, styles.vanillaButton)}

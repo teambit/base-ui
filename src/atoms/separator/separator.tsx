@@ -23,7 +23,7 @@ export function Separator({ layout, className, ...rest }: SeparatorProps) {
 		<div
 			{...rest}
 			className={classNames(styles.separator, styles[layout], className)}
-			data-bit-id="bit.base/atoms/separator"
+			data-bit-id="bit.base-ui/atoms/separator"
 		/>
 	);
 }

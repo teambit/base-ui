@@ -2,7 +2,7 @@ Basic grid element for 1-12 columns.
 Accepts all props of native html div element.
 
 ```tsx
-import { grid } from '@bit/bit.base.layout.grid-component';
+import { grid } from '@bit/bit.base-ui.layout.grid-component';
 
 //...
 

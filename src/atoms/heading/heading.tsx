@@ -17,7 +17,7 @@ export function Heading(props: HeadingProps) {
 	const { element, ...rest } = props;
 	const Element = element || 'h1';
 
-	return <Element data-bit-id="bit.base/atoms/heading" {...rest} />;
+	return <Element data-bit-id="bit.base-ui/atoms/heading" {...rest} />;
 }
 
 Heading.defaultProps = {

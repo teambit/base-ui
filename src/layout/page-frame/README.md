@@ -10,7 +10,7 @@ CSS components for readable columns.
 
 ## Example
 ```tsx
-import { centerColumn, wideColumn, textColumn } from '@bit/bit.base.layout.page-frame';
+import { centerColumn, wideColumn, textColumn } from '@bit/bit.base-ui.layout.page-frame';
 
 // ...
 
