@@ -63,6 +63,7 @@
       "tester": "bit.envs/testers/mocha@5.0.2"
     },
     "componentsDefaultDirectory": "src/bit-components/{name}",
+    "defaultScope": "bit.base-ui",
     "packageManager": "yarn",
     "overrides": {
       "*": {

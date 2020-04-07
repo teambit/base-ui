@@ -4,6 +4,13 @@ import styles from './themed-text.module.scss';
 
 export type ThemedTextProps = HTMLAttributes<HTMLSpanElement>;
 
+/**
+ * Text colored with the current base color.  
+ *
+ * using css variable:  
+ * -   --base-color
+ * @name ThemedText
+ */
 export function ThemedText(props: ThemedTextProps) {
 	return (
 		<span
