@@ -19,7 +19,7 @@ export function Link(props: LinkProps) {
 	const externalProps = external ? { rel: 'noopener', target: '_blank' } : {};
 
 	return (
-		<a data-bit-id="bit.base-ui/atoms/link" {...externalProps} {...rest}>
+		<a data-bit-id="bit.base-ui/elements/link" {...externalProps} {...rest}>
 			{children}
 		</a>
 	);

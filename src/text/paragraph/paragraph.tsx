@@ -25,7 +25,7 @@ export function Paragraph({ className, size, element: Element, ...rest }: Paragr
 	return (
 		<Element
 			className={classNames(styles[size], className)}
-			data-bit-id="bit.base-ui/atoms/paragraph"
+			data-bit-id="bit.base-ui/text/paragraph"
 			{...rest}
 		/>
 	);

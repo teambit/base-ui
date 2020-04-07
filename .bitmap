@@ -55,7 +55,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/elements/image@1.0.0": {
+    "bit.base-ui/elements/image@1.0.1": {
         "files": [
             {
                 "name": "image.module.scss",
@@ -83,7 +83,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/elements/label@1.0.0": {
+    "bit.base-ui/elements/label@1.0.1": {
         "files": [
             {
                 "name": "index.tsx",
@@ -111,7 +111,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/elements/link@1.0.0": {
+    "bit.base-ui/elements/link@1.0.1": {
         "files": [
             {
                 "name": "index.ts",
@@ -129,7 +129,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/elements/separator@1.0.0": {
+    "bit.base-ui/elements/separator@1.0.1": {
         "files": [
             {
                 "name": "index.tsx",
@@ -157,7 +157,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/input/button@1.0.0": {
+    "bit.base-ui/input/button@1.0.1": {
         "files": [
             {
                 "name": "button.module.scss",
@@ -401,7 +401,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/text/heading@1.0.0": {
+    "bit.base-ui/text/heading@1.0.1": {
         "files": [
             {
                 "name": "heading.spec.tsx",
@@ -424,7 +424,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/text/paragraph@1.0.0": {
+    "bit.base-ui/text/paragraph@1.0.1": {
         "files": [
             {
                 "name": "index.tsx",
@@ -452,7 +452,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/text/themed-text@1.0.0": {
+    "bit.base-ui/text/themed-text@1.0.1": {
         "files": [
             {
                 "relativePath": "src/text/themed-text/index.ts",
