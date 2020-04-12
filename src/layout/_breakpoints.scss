@@ -3,7 +3,7 @@
 * 
 * Use `(min-width: xxx)` to keep a consistent mobile-first experience (and not `max-width`).
 *
-* ```tsx
+* ```scss
 * $br-xs: 360px;
 * $br-sm: 480px;		//mobile
 * $br-md: 768px;		
@@ -14,7 +14,7 @@
 * ```
 * 
 * ## example
-* ```tsx
+* ```scss
 * .content @media screen and (min-width: $br-l) {
 *   display: flex;
 * } 

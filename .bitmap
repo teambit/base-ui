@@ -157,7 +157,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/input/button@1.0.1": {
+    "bit.base-ui/input/button@1.0.2": {
         "files": [
             {
                 "name": "button.module.scss",
@@ -185,7 +185,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/layout/align@1.0.6": {
+    "bit.base-ui/layout/align@1.0.7": {
         "files": [
             {
                 "name": "README.md",
@@ -208,7 +208,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/layout/breakpoints@1.0.5": {
+    "bit.base-ui/layout/breakpoints@1.0.6": {
         "files": [
             {
                 "name": "_breakpoints.scss",
@@ -220,7 +220,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/layout/col-span@1.0.5": {
+    "bit.base-ui/layout/col-span@1.0.6": {
         "files": [
             {
                 "name": "README.md",
@@ -248,7 +248,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/layout/grid-component@1.0.8": {
+    "bit.base-ui/layout/grid-component@1.0.9": {
         "files": [
             {
                 "name": "README.md",
@@ -286,7 +286,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/layout/grid-presets/four-way-grid@1.0.4": {
+    "bit.base-ui/layout/grid-presets/four-way-grid@1.0.5": {
         "files": [
             {
                 "name": "four-way-grid.module.scss",
@@ -304,7 +304,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/layout/grid-presets/z-grid@1.0.5": {
+    "bit.base-ui/layout/grid-presets/z-grid@1.0.6": {
         "files": [
             {
                 "name": "index.ts",
@@ -322,7 +322,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/layout/page-frame@1.0.3": {
+    "bit.base-ui/layout/page-frame@1.0.4": {
         "files": [
             {
                 "name": "README.md",
@@ -499,7 +499,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-definition@1.0.4": {
+    "bit.base-ui/theme/color-definition@1.0.5": {
         "files": [
             {
                 "name": "color-definition.module.scss",
@@ -523,7 +523,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/fonts/book@1.0.5": {
+    "bit.base-ui/theme/fonts/book@1.0.6": {
         "files": [
             {
                 "name": "book-font.module.scss",
@@ -535,7 +535,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/heading-margin-definition@1.0.1": {
+    "bit.base-ui/theme/heading-margin-definition@1.0.2": {
         "files": [
             {
                 "name": "heading-margin-definition.module.scss",
@@ -547,7 +547,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/shadow-definition@1.0.2": {
+    "bit.base-ui/theme/shadow-definition@1.0.3": {
         "files": [
             {
                 "name": "shadow-definition.module.scss",
@@ -559,7 +559,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/size-definition@1.0.1": {
+    "bit.base-ui/theme/size-definition@1.0.2": {
         "files": [
             {
                 "name": "size-definition.module.scss",
@@ -583,7 +583,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/theme-provider@1.0.8": {
+    "bit.base-ui/theme/theme-provider@1.0.9": {
         "files": [
             {
                 "name": "index.tsx",
@@ -605,7 +605,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/utils/popper-js/ignore-popper-size@1.0.3": {
+    "bit.base-ui/utils/popper-js/ignore-popper-size@1.0.4": {
         "files": [
             {
                 "name": "ignore-popper-size.tsx",
@@ -623,7 +623,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/utils/popper-js/resize-to-match-reference@1.0.2": {
+    "bit.base-ui/utils/popper-js/resize-to-match-reference@1.0.3": {
         "files": [
             {
                 "name": "index.ts",

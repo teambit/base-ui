@@ -3,7 +3,6 @@ import { Modifier } from '@popperjs/core';
 /**
  * @name ignorePopperSize
  * @description
- * # Ignore popper size
  * A [Popper.js](https://popper.js.org/) plugin.  
  * It removes the sizes from the popper element, thus preventing it from interfering with position calculation.
  * 

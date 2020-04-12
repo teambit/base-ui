@@ -1,3 +1,5 @@
+## Grid Component
+
 Basic grid element for 1-12 columns.
 Accepts all props of native html div element.
 

@@ -1,4 +1,6 @@
-Preset columns span for a 12-column CSS-grid.
+## Column Span
+
+Preset columns spans, for a 12-column CSS-grid.
 
 ```tsx
 import { colSpan } from '@bit/bit.base-ui.layout.col-span';

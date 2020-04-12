@@ -23,6 +23,7 @@ export type ButtonProps = {
 
 /**
  * Base button, with very basic styles. Accepts all parameters of native html button.
+ * 
  * If onClick returns a promise, BaseButton will show a loader automatically, until the promise is resolved or rejected.
  * @example
  * <Button onClick={() => api.submitUserData()} loader={<CustomLoader/> } />
