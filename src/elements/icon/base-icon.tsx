@@ -16,5 +16,9 @@ export type BaseIconProps = {
  * const EvaButton = (props) => <BaseIcon {...props} of={`${iconset}-${props.of}`} />;
  */
 export function BaseIcon({ of: iconName, className, ...rest }: BaseIconProps) {
-	return <span {...rest} className={classnames(iconName, className)} />;
+	return <span
+		data-bit-id="bit.base-ui/elements/icon	"
+		className={classnames(iconName, className)}
+		{...rest} 
+	/>;
 }

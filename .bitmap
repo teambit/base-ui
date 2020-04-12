@@ -37,7 +37,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/elements/icon@1.0.0": {
+    "bit.base-ui/elements/icon@1.0.1": {
         "files": [
             {
                 "name": "base-icon.tsx",
@@ -129,7 +129,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/elements/separator@1.0.1": {
+    "bit.base-ui/elements/separator@1.0.2": {
         "files": [
             {
                 "name": "index.tsx",
@@ -368,7 +368,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/surfaces/card@1.0.0": {
+    "bit.base-ui/surfaces/card@1.0.1": {
         "files": [
             {
                 "name": "card.module.scss",

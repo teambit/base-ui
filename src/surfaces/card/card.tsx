@@ -20,7 +20,11 @@ export type CardProps = {
  */
 export function Card({ className, elevation = 'low', ...rest }: CardProps) {
 	return (
-		<div className={classNames(styles.card, elevations[elevation], className)} {...rest} />
+		<div
+			data-bit-id="bit.base-ui/surfaces/card"
+			className={classNames(styles.card, elevations[elevation], className)}
+			{...rest}
+		/>
 	);
 }
 
