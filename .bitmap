@@ -248,7 +248,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/layout/grid-component@1.0.9": {
+    "bit.base-ui/layout/grid-component@1.0.10": {
         "files": [
             {
                 "name": "README.md",
