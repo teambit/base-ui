@@ -23,4 +23,10 @@ xl $br-xl;
 			}
 		}
 	}
+	
+	.colTemplate {
+		&--all-#{$i} {
+			grid-template-columns: repeat($i, 1fr);
+		}
+	}
 }

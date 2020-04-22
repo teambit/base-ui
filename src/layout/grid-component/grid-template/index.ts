@@ -15,7 +15,7 @@ type ColumnPreset = {
 	12: string;
 };
 
-export const colGrid = makePreset();
+export const colGrid = makePreset('all');
 export const colGridXs = makePreset('xs');
 export const colGridSm = makePreset('sm');
 export const colGridMd = makePreset('md');
@@ -23,7 +23,7 @@ export const colGridL = makePreset('l');
 export const colGridLg = makePreset('lg');
 export const colGridXl = makePreset('xl');
 
-function makePreset(breakPoints: string = ''): ColumnPreset {
+function makePreset(breakPoints: string): ColumnPreset {
 	const obj: any = {};
 
 	for (var i = 1; i <= 12; i++) {
