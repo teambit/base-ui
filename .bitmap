@@ -424,6 +424,29 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "bit.base-ui/text/muted-text@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/text/muted-text/index.ts",
+                "test": false,
+                "name": "index.ts"
+            },
+            {
+                "relativePath": "src/text/muted-text/muted-text.module.scss",
+                "test": false,
+                "name": "muted-text.module.scss"
+            },
+            {
+                "relativePath": "src/text/muted-text/muted-text.tsx",
+                "test": false,
+                "name": "muted-text.tsx"
+            }
+        ],
+        "mainFile": "src/text/muted-text/index.ts",
+        "trackDir": "src/text/muted-text",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "bit.base-ui/text/paragraph@1.0.1": {
         "files": [
             {
@@ -452,7 +475,30 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/text/themed-text@1.0.1": {
+    "bit.base-ui/text/text-separator@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/text/text-separator/index.ts",
+                "test": false,
+                "name": "index.ts"
+            },
+            {
+                "relativePath": "src/text/text-separator/text-separator.module.scss",
+                "test": false,
+                "name": "text-separator.module.scss"
+            },
+            {
+                "relativePath": "src/text/text-separator/text-separator.tsx",
+                "test": false,
+                "name": "text-separator.tsx"
+            }
+        ],
+        "mainFile": "src/text/text-separator/index.ts",
+        "trackDir": "src/text/text-separator",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bit.base-ui/text/themed-text@1.0.2": {
         "files": [
             {
                 "relativePath": "src/text/themed-text/index.ts",
@@ -499,7 +545,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-definition@1.0.6": {
+    "bit.base-ui/theme/color-definition@1.1.0": {
         "files": [
             {
                 "name": "color-definition.module.scss",
@@ -508,6 +554,24 @@
             }
         ],
         "mainFile": "src/themes/color-definition.module.scss",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bit.base-ui/theme/color-palette@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/themes/color-palette/color-palette.module.scss",
+                "test": false,
+                "name": "color-palette.module.scss"
+            },
+            {
+                "relativePath": "src/themes/color-palette/index.ts",
+                "test": false,
+                "name": "index.ts"
+            }
+        ],
+        "mainFile": "src/themes/color-palette/index.ts",
+        "trackDir": "src/themes/color-palette",
         "origin": "AUTHORED",
         "exported": true
     },
@@ -523,7 +587,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/fonts/book@1.0.6": {
+    "bit.base-ui/theme/fonts/book@1.1.0": {
         "files": [
             {
                 "name": "book-font.module.scss",
@@ -583,7 +647,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/theme-provider@1.0.10": {
+    "bit.base-ui/theme/theme-provider@1.0.11": {
         "files": [
             {
                 "name": "index.tsx",
@@ -641,5 +705,5 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "version": "14.7.7-dev.3"
+    "version": "14.7.7-kutner-2"
 }
