@@ -1,0 +1,41 @@
+@import '~@bit/bit.base-ui.theme.colors';
+
+.primary {
+	--base-color: #{$p50};
+	--base-highlight: #{$p60};
+}
+
+.secondary {
+	--base-color: #{$b50};
+	--base-highlight: #{$b60};
+}
+
+.complementary {
+	--base-color: #{$pink50};
+	--base-highlight: #{$pink60};
+}
+
+.impulsive {
+	--base-color: #{$r50};
+	--base-highlight: #{$r60};
+}
+
+.hungry {
+	--base-color: #{$y50};
+	--base-highlight: #{$y60};
+}
+
+.success {
+	--base-color: #{$g50};
+	--base-highlight: #{$g60};
+}
+
+.neutral {
+	--base-color: #{$d50};
+	--base-highlight: #{$d60};
+}
+
+.muted {
+	--base-color: #{$d40};
+	--base-highlight: #{$d50};
+}
