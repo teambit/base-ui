@@ -20,3 +20,9 @@ export function ThemedText(props: ThemedTextProps) {
 		/>
 	);
 }
+
+/**
+ * Same component as a pure-css class.
+ * @name themedText
+ */
+export const themedText = styles.themedText;
