@@ -13,12 +13,18 @@
 
 .primaryPalette {
     color: $d50;
+    --text-color: #{$d50};
+    --muted-text-color: #{$d40};
+    
     --base-color: #{$p50};
     --base-highlight: #{$p60};
 
     --border-color: #{$d10};
     --bg-color: #{$w10};
     --separator-color: #{$d20};
+    
+    --muted-color: #{$p20}; //unsettled
+    --muted-highlight: #{$p30}; //unsettled
 
     --primary-button-bg: #{$w10};
     --primary-button-width: 199px;
