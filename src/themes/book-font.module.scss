@@ -15,38 +15,49 @@ $staticStorageUrl: 'https://static.bit.dev';
  * </body>
  */
 
+// default
 @font-face {
 	font-family: "CircularPro";
 	src: url($staticStorageUrl + '/fonts/CircularPro-Book.otf');
 }
 
+// bold
 @font-face {
 	font-family: "CircularPro";
 	src: url($staticStorageUrl + '/fonts/CircularPro-Bold.otf');
 	font-weight: bold;
 }
 
+// // bold-er
+@font-face {
+	font-family: "CircularPro";
+	src: url($staticStorageUrl + '/fonts/CircularPro-Black.otf');
+	font-weight: 800;
+}
+
+// italic
 @font-face {
 	font-family: "CircularPro";
 	src: url($staticStorageUrl + '/fonts/CircularPro-BookItalic.otf');
 	font-style: italic;
 }
 
+// bold + italic
 @font-face {
 	font-family: "CircularPro";
-	src: url($staticStorageUrl + '/fonts/CircularPro-BlackItalic.otf');
+	src: url($staticStorageUrl + '/fonts/CircularPro-BoldItalic.otf');
 	font-style: italic;
 	font-weight: bold;
 }
 
-//@HACK - legacy fonts:
+// bold-er + italic
 @font-face {
-	font-family: "circularProBold";
-	src: url($staticStorageUrl + '/fonts/CircularPro-Bold.otf');
-	font-weight: bold;
+	font-family: "CircularPro";
+	src: url($staticStorageUrl + '/fonts/CircularPro-BlackItalic.otf');
+	font-style: italic;
+	font-weight: 800;
 }
 
 .bookFont {
 	font-family: "CircularPro", "Gill Sans", "Gill Sans MT", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	;
 }
