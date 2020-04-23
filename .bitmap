@@ -487,7 +487,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/brand-definition@1.0.5": {
+    "bit.base-ui/theme/brand-definition@1.0.6": {
         "files": [
             {
                 "name": "brand-definition.module.scss",
@@ -499,7 +499,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-definition@1.0.5": {
+    "bit.base-ui/theme/color-definition@1.0.6": {
         "files": [
             {
                 "name": "color-definition.module.scss",
@@ -511,7 +511,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/colors@1.0.4": {
+    "bit.base-ui/theme/colors@1.1.0": {
         "files": [
             {
                 "name": "colors.module.scss",
@@ -583,7 +583,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/theme-provider@1.0.9": {
+    "bit.base-ui/theme/theme-provider@1.0.10": {
         "files": [
             {
                 "name": "index.tsx",
