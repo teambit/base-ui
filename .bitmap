@@ -157,6 +157,29 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "bit.base-ui/geometry/curve-peek@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/geometry/curve-peek/curve-peek.tsx",
+                "test": false,
+                "name": "curve-peek.tsx"
+            },
+            {
+                "relativePath": "src/geometry/curve-peek/filling.module.scss",
+                "test": false,
+                "name": "filling.module.scss"
+            },
+            {
+                "relativePath": "src/geometry/curve-peek/indext.ts",
+                "test": false,
+                "name": "indext.ts"
+            }
+        ],
+        "mainFile": "src/geometry/curve-peek/curve-peek.tsx",
+        "trackDir": "src/geometry/curve-peek",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "bit.base-ui/input/button@1.0.2": {
         "files": [
             {
@@ -185,7 +208,30 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/layout/align@1.0.7": {
+    "bit.base-ui/input/error@0.0.3": {
+        "files": [
+            {
+                "relativePath": "src/input/error/error.module.scss",
+                "test": false,
+                "name": "error.module.scss"
+            },
+            {
+                "relativePath": "src/input/error/error.tsx",
+                "test": false,
+                "name": "error.tsx"
+            },
+            {
+                "relativePath": "src/input/error/index.ts",
+                "test": false,
+                "name": "index.ts"
+            }
+        ],
+        "mainFile": "src/input/error/index.ts",
+        "trackDir": "src/input/error",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bit.base-ui/layout/align@1.1.0": {
         "files": [
             {
                 "name": "README.md",
@@ -345,7 +391,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/placement/ref-tooltip@1.0.0": {
+    "bit.base-ui/placement/ref-tooltip@1.0.2": {
         "files": [
             {
                 "name": "index.ts",
@@ -545,7 +591,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-definition@1.1.0": {
+    "bit.base-ui/theme/color-definition@1.1.1": {
         "files": [
             {
                 "name": "color-definition.module.scss",
@@ -557,7 +603,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-palette@0.0.1": {
+    "bit.base-ui/theme/color-palette@0.0.2": {
         "files": [
             {
                 "relativePath": "src/themes/color-palette/color-palette.module.scss",
@@ -647,7 +693,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/theme-provider@1.0.11": {
+    "bit.base-ui/theme/theme-provider@1.0.12": {
         "files": [
             {
                 "name": "index.tsx",
@@ -669,7 +715,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/utils/popper-js/ignore-popper-size@1.0.4": {
+    "bit.base-ui/utils/popper-js/ignore-popper-size@1.0.5": {
         "files": [
             {
                 "name": "ignore-popper-size.tsx",
@@ -687,7 +733,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/utils/popper-js/resize-to-match-reference@1.0.3": {
+    "bit.base-ui/utils/popper-js/resize-to-match-reference@1.0.4": {
         "files": [
             {
                 "name": "index.ts",
