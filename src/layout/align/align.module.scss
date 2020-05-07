@@ -8,6 +8,10 @@ l $br-l,
 lg $br-lg,
 xl $br-xl;
 
+.fullWidth {
+	width: 100%;
+	box-sizing: border-box;
+}
 
 .text {
 	&-left {
@@ -25,20 +29,19 @@ xl $br-xl;
 		$brName: nth($breakpoint, 1);
 		$brVal: nth($breakpoint, 2);
 		@media only screen and (min-width: $brVal) {
-				&-#{$brName} {
-					&-left {
-						text-align: left;
-					}
-				
-					&-center {
-						text-align: center;
-					}
-				
-					&-right {
-						text-align: right;
-					}
+			&-#{$brName} {
+				&-left {
+					text-align: left;
 				}
-				
+			
+				&-center {
+					text-align: center;
+				}
+			
+				&-right {
+					text-align: right;
+				}
+			}
 		}
 	}
 }

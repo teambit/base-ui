@@ -1,4 +1,4 @@
-@import '~@bit/bit.base-ui.theme.colors';
+@import '../colors.module.scss';
 
 .primary {
 	--base-color: #{$p50};

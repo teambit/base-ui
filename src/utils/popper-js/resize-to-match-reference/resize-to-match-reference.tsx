@@ -11,7 +11,7 @@ export type ResizeToMatchReferenceOptions = {
  * @name resizeToMatchReference
  */
 
-export const resizeToMatchReference: Modifier<ResizeToMatchReferenceOptions> = {
+export const resizeToMatchReference: Modifier<string, ResizeToMatchReferenceOptions> = {
 	name: 'resizeToMatchReference',
 	enabled: true,
 	phase: 'main',

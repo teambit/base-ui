@@ -59,7 +59,7 @@ export class RefTooltip extends Component<RefTooltipProps> {
 	};
 
 	render() {
-		const { className, targetElement, ...rest } = this.props;
+		const { className, targetElement, popperOptions, ...rest } = this.props;
 		return (
 			<div
 				{...rest}

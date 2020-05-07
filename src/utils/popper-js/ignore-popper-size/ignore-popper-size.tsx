@@ -9,7 +9,7 @@ import { Modifier } from '@popperjs/core';
  * The plugin is used in the border-highlight component, which should cover the whole target
  */
 
-export const ignorePopperSize: Modifier<{}> = {
+export const ignorePopperSize: Modifier<string, {}> = {
 	name: 'ignorePopperSize',
 	enabled: true,
 	phase: 'beforeRead',

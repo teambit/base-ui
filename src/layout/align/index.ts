@@ -28,6 +28,8 @@ type TextProps = {
 	xl: TextOptions;
 };
 
+export const fullWidth = styles.fullWidth;
+
 export const text = (() => {
 	const baseStyle = {
 		left: styles['text-left'],
