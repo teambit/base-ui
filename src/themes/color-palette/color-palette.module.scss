@@ -1,5 +1,6 @@
 @import '../colors.module.scss';
 
+// brand colors
 .primary {
 	--base-color: #{$p50};
 	--base-highlight: #{$p60};
@@ -15,6 +16,7 @@
 	--base-highlight: #{$pink60};
 }
 
+// intents
 .impulsive {
 	--base-color: #{$r50};
 	--base-highlight: #{$r60};
@@ -28,6 +30,12 @@
 .success {
 	--base-color: #{$g50};
 	--base-highlight: #{$g60};
+}
+
+// weight
+.emphasized {
+	--base-color: #{$d60};
+	--base-highlight: #{$d70};
 }
 
 .neutral {

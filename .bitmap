@@ -470,7 +470,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/text/muted-text@0.0.1": {
+    "bit.base-ui/text/muted-text@0.1.0": {
         "files": [
             {
                 "relativePath": "src/text/muted-text/index.ts",
@@ -591,7 +591,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-definition@1.1.1": {
+    "bit.base-ui/theme/color-definition@2.0.0": {
         "files": [
             {
                 "name": "color-definition.module.scss",
@@ -603,7 +603,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-palette@0.0.2": {
+    "bit.base-ui/theme/color-palette@0.1.1": {
         "files": [
             {
                 "relativePath": "src/themes/color-palette/color-palette.module.scss",
@@ -693,7 +693,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/theme-provider@1.0.12": {
+    "bit.base-ui/theme/theme-provider@1.1.0": {
         "files": [
             {
                 "name": "index.tsx",

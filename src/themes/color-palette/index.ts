@@ -7,6 +7,7 @@ export const colorPalette = {
 	impulse: colorStyles.impulsive, //joy, danger,
 	hunger: colorStyles.hungry, //risk, worry, confidence
 	success: colorStyles.success,
+	emphasized: colorStyles.emphasized,
 	neutral: colorStyles.neutral,
 	muted: colorStyles.muted,
 };

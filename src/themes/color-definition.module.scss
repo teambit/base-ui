@@ -13,8 +13,9 @@
 
 .primaryPalette {
     color: $d50;
+    --text-highlight: #{$d60};
     --text-color: #{$d50};
-    --muted-text-color: #{$d40};
+    --text-muted: #{$d40};
     
     --base-color: #{$p50};
     --base-highlight: #{$p60};
