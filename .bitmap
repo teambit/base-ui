@@ -391,7 +391,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/placement/ref-tooltip@1.1.0": {
+    "bit.base-ui/placement/ref-tooltip@1.1.1": {
         "files": [
             {
                 "name": "index.ts",

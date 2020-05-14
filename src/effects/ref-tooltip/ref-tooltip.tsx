@@ -11,6 +11,8 @@ export type RefTooltipProps = {
 	targetElement?: HTMLElement,
 	/** options for the underlying Popper.js position engine */
 	popperOptions?: Partial<Options>,
+	/** Actively recalculate position, to support moving elements  */
+	motionTracking?: boolean, 
 } & React.HTMLAttributes<HTMLDivElement>;
 
 /**
@@ -49,6 +51,15 @@ export class RefTooltip extends Component<RefTooltipProps> {
 		if (!targetElement || !popperElement) return;
 
 		this.popperInstance = createPopper(targetElement, popperElement, popperOptions);
+		
+		window.requestAnimationFrame(this.step);
+	};
+	
+	private step = () => {
+		if (!this.popperInstance || !this.props.motionTracking) return;
+
+		this.popperInstance.update();
+		window.requestAnimationFrame(this.step);
 	};
 
 	destroy = () => {
@@ -59,7 +70,7 @@ export class RefTooltip extends Component<RefTooltipProps> {
 	};
 
 	render() {
-		const { className, targetElement, popperOptions, ...rest } = this.props;
+		const { className, targetElement, popperOptions, motionTracking, ...rest } = this.props;
 		return (
 			<div
 				{...rest}
