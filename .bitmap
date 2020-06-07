@@ -157,7 +157,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/geometry/curve-peek@0.0.1": {
+    "bit.base-ui/geometry/curve-peek@1.0.0": {
         "files": [
             {
                 "relativePath": "src/geometry/curve-peek/curve-peek.tsx",
@@ -208,7 +208,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/input/error@0.0.3": {
+    "bit.base-ui/input/error@1.0.0": {
         "files": [
             {
                 "relativePath": "src/input/error/error.module.scss",
@@ -470,7 +470,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/text/muted-text@0.1.0": {
+    "bit.base-ui/text/muted-text@1.0.0": {
         "files": [
             {
                 "relativePath": "src/text/muted-text/index.ts",
@@ -521,7 +521,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/text/text-separator@0.0.1": {
+    "bit.base-ui/text/text-separator@1.0.0": {
         "files": [
             {
                 "relativePath": "src/text/text-separator/index.ts",
@@ -603,7 +603,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-palette@0.1.1": {
+    "bit.base-ui/theme/color-palette@1.0.1": {
         "files": [
             {
                 "relativePath": "src/themes/color-palette/color-palette.module.scss",
