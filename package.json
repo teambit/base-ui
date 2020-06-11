@@ -85,7 +85,10 @@
                 "tsconfig": {
                   "compilerOptions": {
                     "target": "ES5",
-                    "module": "CommonJS"
+                    "module": "CommonJS",
+                    "inlineSourceMap": true, 
+                    "removeComments": false,
+                    "experimentalDecorators": true
                   }
                 }
               }
