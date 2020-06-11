@@ -2,9 +2,19 @@
  * Shadow CSS-variables definitions.
  * ```
  * --elevation-none: none;
- * --elevation-low: 0px 2px 4px rgba(0, 0, 0, 0.09);
- * --elevation-medium: 0px 2px 8px rgba(0, 0, 0, 0.09);
- * --elevation-high: 0px 11px 29px 0px rgba(0, 0, 0, 0.23);
+ *
+ * //raised, ie attached to background
+ * --shadow-raised-low: 0 -1px 1px 0 rgba(0, 0, 0, 0.09), 0 2px 2px 0 rgba(0, 0, 0, 0.23);
+ * // --shadow-raised-medium: //TBD;
+ * // --shadow-raised-hight: //TBD;
+ * 
+ * //not final
+ * --shadow-faint: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+ * 
+ * // hover, ie. floating above
+ * --shadow-hover-low: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+ * --shadow-hover-medium: 0 0 20px 0 rgba(0, 0, 0, 0.12), 0 2px 6px 0 rgba(0, 0, 0, 0.24);
+ * --shadow-hover-high: 0px 11px 29px 0px rgba(0, 0, 0, 0.23);
  * ```
  *
  * To use, add class `shadowTheme` to your root component.
@@ -12,7 +22,17 @@
 
 .shadowTheme {
   --elevation-none: none;
-  --elevation-low: 0px 2px 4px rgba(0, 0, 0, 0.09);
-  --elevation-medium: 0px 2px 8px rgba(0, 0, 0, 0.09);
-  --elevation-high: 0px 11px 29px 0px rgba(0, 0, 0, 0.23);
+  
+  //raised, ie attached to background
+  --shadow-raised-low: 0 -1px 1px 0 rgba(0, 0, 0, 0.09), 0 2px 2px 0 rgba(0, 0, 0, 0.23);
+  // --shadow-raised-medium: ;
+  // --shadow-raised-hight: ;
+
+  //not final
+  --shadow-faint: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+
+  // hover, ie. floating above
+  --shadow-hover-low: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  --shadow-hover-medium: 0 0 20px 0 rgba(0, 0, 0, 0.12), 0 2px 6px 0 rgba(0, 0, 0, 0.24);
+  --shadow-hover-high: 0px 11px 29px 0px rgba(0, 0, 0, 0.23);
 }
