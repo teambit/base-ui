@@ -1,14 +1,15 @@
 import React, { Component, ReactNode } from 'react';
 import classNames from 'classnames';
 
-//@ts-ignore
-import Spinner from '@bit/bit.base-ui.ellipsis';
+// //@ts-ignore
+// import Spinner from '@bit/bit.base-ui.ellipsis';
 
 import styles from './button.module.scss';
+import { DotsLoader } from '../../elements/dots-loader';
 
-const defaultSpinner = (
-	<Spinner color="#ffffff" size={18} style={{ verticalAlign: 'middle' }} />
-);
+// const defaultSpinner = (
+// 	<Spinner color="#ffffff" size={18} style={{ verticalAlign: 'middle' }} />
+// );
 
 export type ButtonProps = {
 	/**
@@ -32,7 +33,7 @@ export default class Button extends Component<ButtonProps> {
 	state = { isLoading: false };
 
 	static defaultProps = {
-		loader: defaultSpinner,
+		loader: <DotsLoader/>,
 		loading: false,
 	};
 

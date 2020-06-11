@@ -1,0 +1,32 @@
+$blinkMs: 185ms;
+$exaggeratedMs: 1270ms;
+
+.dotsLoader {
+	letter-spacing: 0.6em;
+	text-indent: 0.6em;
+
+	> * {
+		animation: $exaggeratedMs infinite ease-in-out both;
+		animation-name: scale-down;
+		display: inline-block;
+
+		&:nth-child(1) {
+			animation-delay: -$blinkMs * 2;
+		}
+		&:nth-child(2) {
+			animation-delay: -$blinkMs;
+		}
+	}
+}
+
+@keyframes scale-down {
+	0%,
+	20%,
+	100% {
+		transform: scale(0);
+	}
+
+	60% {
+		transform: scale(1);
+	}
+}
