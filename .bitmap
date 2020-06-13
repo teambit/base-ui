@@ -685,7 +685,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/shadow-definition@2.0.0": {
+    "bit.base-ui/theme/shadow-definition@2.1.0": {
         "files": [
             {
                 "name": "shadow-definition.module.scss",
@@ -721,7 +721,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/theme-provider@2.0.0": {
+    "bit.base-ui/theme/theme-provider@2.0.1": {
         "files": [
             {
                 "name": "index.tsx",
