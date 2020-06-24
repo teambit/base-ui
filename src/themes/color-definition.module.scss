@@ -9,6 +9,16 @@
  * -   `--border-color`
  * -   `--bg-color` - background color
  * -   `--separator-color`
+ *  
+ * ### backgrounds:
+ * As elements stacks closer to the user, its color changes. their color change.  
+ * This is especially noticeable in dark mode (higher elements are lighter).  
+ *  
+ * We created 4 levels of possible backgrounds, from bottom to top:
+ * -   `--bg-bedrock` - i.e. <body/> background
+ * -   `--bg-base` - e.g. navigation elements and wireframes
+ * -   `--bg-layer` - workspaces, e.g. card. (may be sub-divided in the future)
+ * -   `--bg-topping` - "bumps" on top level surfaces e.g. button, input, etc
  */
 
 .primaryPalette {
@@ -30,7 +40,15 @@
     --error-color: #{$r50};
     --error-highlight: #{$r60};
 
-    --primary-button-bg: #{$w10};
+    --bg-bedrock: #{$w10};  // i.e. <body/> background
+    --bg-base: #{$w10};     // e.g. navigation
+    --bg-layer: #{$w10};    // e.g. card
+    // --bg-crust: #{$w10}; // TBD    
+    --bg-topping: #{$w10}; // e.g. button, input, etc
+    --bg-topping-highlight: #{$w20};
+    --bg-dent: #{w20};
+
+    // deprecated (overly specific):
     --primary-button-width: 199px;
     --primary-button-height: 46px;
     --cta-button-text: #{$w10};
@@ -38,19 +56,3 @@
     --primary-label-text: #{$w10};
     --primary-label-width: 50px;
 }
-
-// .winPalette {
-//     color: $d50;
-//     --base-color: #{$g50};
-//     --cta-button-bg: #{$g50};
-// }
-
-// .secondaryPalette {//todo - blue rename
-//     color: $d50;
-//     --base-color: #{$b50};
-// }
-
-// .complementaryPalette { //todo - pink rename
-//     color: $d50;
-//     --base-color: #{$pink};
-// }

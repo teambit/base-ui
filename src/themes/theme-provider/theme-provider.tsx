@@ -39,7 +39,8 @@ export function Theme(props: React.HTMLAttributes<HTMLDivElement>) {
 				shadow.shadowTheme,
 				colors.primaryPalette,
 				brands.brands,
-				margins.headingMargins
+				margins.headingMargins,
+				props.className,
 			)}
 		></div>
 	);
