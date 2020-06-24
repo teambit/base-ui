@@ -647,7 +647,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-definition@2.1.1": {
+    "bit.base-ui/theme/color-definition@2.1.2": {
         "files": [
             {
                 "name": "color-definition.module.scss",
@@ -749,7 +749,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/theme-provider@2.1.1": {
+    "bit.base-ui/theme/theme-provider@2.1.2": {
         "files": [
             {
                 "name": "index.tsx",
