@@ -437,7 +437,35 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/surfaces/card@2.0.0": {
+    "bit.base-ui/surfaces/bedrock@0.0.2": {
+        "files": [
+            {
+                "relativePath": "src/surfaces/bedrock/bedrock.classes.ts",
+                "test": false,
+                "name": "bedrock.classes.ts"
+            },
+            {
+                "relativePath": "src/surfaces/bedrock/bedrock.module.scss",
+                "test": false,
+                "name": "bedrock.module.scss"
+            },
+            {
+                "relativePath": "src/surfaces/bedrock/bedrock.tsx",
+                "test": false,
+                "name": "bedrock.tsx"
+            },
+            {
+                "relativePath": "src/surfaces/bedrock/index.ts",
+                "test": false,
+                "name": "index.ts"
+            }
+        ],
+        "mainFile": "src/surfaces/bedrock/index.ts",
+        "trackDir": "src/surfaces/bedrock",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bit.base-ui/surfaces/card@2.0.1": {
         "files": [
             {
                 "name": "card.module.scss",
@@ -619,7 +647,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-definition@2.0.1": {
+    "bit.base-ui/theme/color-definition@2.1.1": {
         "files": [
             {
                 "name": "color-definition.module.scss",
@@ -631,7 +659,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-palette@1.0.2": {
+    "bit.base-ui/theme/color-palette@1.1.0": {
         "files": [
             {
                 "relativePath": "src/themes/color-palette/color-palette.module.scss",
@@ -721,7 +749,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/theme-provider@2.0.1": {
+    "bit.base-ui/theme/theme-provider@2.1.1": {
         "files": [
             {
                 "name": "index.tsx",
