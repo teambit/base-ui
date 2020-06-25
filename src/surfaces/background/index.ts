@@ -1,4 +1,4 @@
-import styles from './backgrond.module.scss';
+import styles from './background.module.scss';
 
 type BackgroundLayer = 'bedrock' | 'base' | 'layer' | 'crust' | 'topping' | 'dent';
 
