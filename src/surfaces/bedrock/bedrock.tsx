@@ -1,11 +1,9 @@
 import React from 'react';
 import classNames from 'classnames';
-import { bedrockClass } from './bedrock.classes';
+import { backgrounds } from '../background';
 
 type BedrockProps = React.HTMLAttributes<HTMLDivElement>;
 
-export function Bedrock(props: BedrockProps){
-	return (
-		<div {...props} className={classNames(bedrockClass, props.className)}/>
-	)
+export function Bedrock(props: BedrockProps) {
+	return <div {...props} className={classNames(backgrounds.bedrock, props.className)} />;
 }

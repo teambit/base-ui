@@ -1,17 +1,18 @@
 import React from 'react';
 import classNames from 'classnames';
 import styles from './card.module.scss';
-import elevations from './elevations.module.scss';
-import roundnessStyles from './roundness.module.scss';
+import { elevationClass, ElevationHeight } from '../../css-components/elevation';
+import { roundnessClass, Roundness } from '../../css-components/roundness';
+import { backgrounds } from '../background';
 
 export type CardProps = {
 	/**
 	 * Controls the shadow cast by the card, to generate a "stacking" effects.
 	 * For example, a modal floating over elements may have a 'high' elevation
 	 */
-	elevation?: 'none' | 'low' | 'medium' | 'high',
+	elevation?: ElevationHeight;
 	/** Controls the border radius of the card */
-	roundness?: 'sharp' | 'default' | 'medium' | 'circle',
+	roundness?: Roundness;
 } & React.HTMLAttributes<HTMLDivElement>;
 
 /**
@@ -21,11 +22,22 @@ export type CardProps = {
  * 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
  * </Card>
  */
-export function Card({ className, elevation = 'low', roundness = 'default', ...rest }: CardProps) {
+export function Card({
+	className,
+	elevation = 'low',
+	roundness = 'default',
+	...rest
+}: CardProps) {
 	return (
 		<div
 			data-bit-id="bit.base-ui/surfaces/card"
-			className={classNames(styles.card, elevations[elevation], roundnessStyles[roundness], className)}
+			className={classNames(
+				styles.card,
+				backgrounds.layer,
+				elevationClass[elevation],
+				roundnessClass[roundness],
+				className
+			)}
 			{...rest}
 		/>
 	);
@@ -33,5 +45,5 @@ export function Card({ className, elevation = 'low', roundness = 'default', ...r
 
 Card.defaultProps = {
 	elevation: 'low',
-	roundness: 'default'
+	roundness: 'default',
 };

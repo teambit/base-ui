@@ -18,6 +18,7 @@
  * -   `--bg-bedrock` - i.e. <body/> background
  * -   `--bg-base` - e.g. navigation elements and wireframes
  * -   `--bg-layer` - workspaces, e.g. card. (may be sub-divided in the future)
+ * -   `--bg-crust` - overlay ui, e.g. tooltip.
  * -   `--bg-topping` - "bumps" on top level surfaces e.g. button, input, etc
  */
 
@@ -44,8 +45,8 @@
     --bg-bedrock: #{$w10};  // i.e. <body/> background
     --bg-base: #{$w10};     // e.g. navigation
     --bg-layer: #{$w10};    // e.g. card
-    // --bg-crust: #{$w10}; // TBD    
-    --bg-topping: #{$w10}; // e.g. button, input, etc
+    --bg-crust: #{$w10};    // e.g. tooltip    
+    --bg-topping: #{$w10};  // e.g. button, input, etc
     --bg-topping-highlight: #{$w20};
     --bg-dent: #{$w20};
 

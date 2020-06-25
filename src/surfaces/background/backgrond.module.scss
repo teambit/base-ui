@@ -1,0 +1,26 @@
+.bedrock {
+	background: var(--bg-bedrock);
+}
+
+.base {
+	background: var(--bg-base);
+}
+
+.layer {
+	background: var(--bg-layer);
+}
+
+.crust {
+	background: var(--bg-crust);
+}
+
+.topping {
+	background: var(--bg-topping);
+	&:hover {
+		background: var(--bg-topping-highlight);
+	}
+}
+
+.dent {
+	background: var(--bg-dent);
+}
