@@ -36,6 +36,7 @@
     "react": "^16.x.x",
     "react-create-ref": "^1.0.1",
     "react-dom": "^16.x.x",
+    "react-onclickoutside": "^6.9.0",
     "react-scripts": "3.4.0",
     "react-slick": "^0.25.2",
     "reset-css": "^5.0.1",
@@ -50,6 +51,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.x.x",
     "@types/react-dom": "^16.x.x",
+    "@types/react-onclickoutside": "^6.7.3",
     "@types/react-slick": "^0.23.4",
     "@types/sinon": "^7.5.1",
     "chai": "^4.2.0",
@@ -86,7 +88,7 @@
                   "compilerOptions": {
                     "target": "ES5",
                     "module": "CommonJS",
-                    "inlineSourceMap": true, 
+                    "inlineSourceMap": true,
                     "removeComments": false,
                     "experimentalDecorators": true
                   }

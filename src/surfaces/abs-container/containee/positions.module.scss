@@ -1,0 +1,62 @@
+.top {
+	bottom: 100%;
+
+	&-start {
+		bottom: 100%;
+		left: 0%;
+	}
+
+	&-end {
+		bottom: 100%;
+		right: 0%;
+	}
+}
+
+.right {
+	left: 100%;
+
+	&-start {
+		left: 100%;
+		top: 0%;
+	}
+
+	&-end {
+		left: 100%;
+		bottom: 0%;
+	}
+}
+
+.bottom {
+	top: 100%;
+
+	&-start {
+		top: 100%;
+		left: 0%;
+	}
+
+	&-end {
+		top: 100%;
+		right: 0%;
+	}
+}
+
+.left {
+	right: 100%;
+
+	&-start {
+		right: 100%;
+		top: 0%;
+	}
+
+	&-end {
+		right: 100%;
+		bottom: 0%;
+	}
+}
+
+.cover {
+	top: 0%;
+	left: 0%;
+}
+
+// .none {}

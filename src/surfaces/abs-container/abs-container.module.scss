@@ -1,0 +1,12 @@
+.container {
+	position: relative;
+}
+
+.containee {
+	position: absolute;
+
+	display: none;
+	[data-open='true'] & {
+		display: initial;
+	}
+}
