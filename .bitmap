@@ -19,6 +19,29 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "bit.base-ui/css-components/elevation@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/css-components/elevation/elevation-height.ts",
+                "test": false,
+                "name": "elevation-height.ts"
+            },
+            {
+                "relativePath": "src/css-components/elevation/elevations.module.scss",
+                "test": false,
+                "name": "elevations.module.scss"
+            },
+            {
+                "relativePath": "src/css-components/elevation/index.ts",
+                "test": false,
+                "name": "index.ts"
+            }
+        ],
+        "mainFile": "src/css-components/elevation/index.ts",
+        "trackDir": "src/css-components/elevation",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "bit.base-ui/css-components/pill@1.0.1": {
         "files": [
             {
@@ -34,6 +57,29 @@
         ],
         "mainFile": "src/css-components/pill/index.ts",
         "trackDir": "src/css-components/pill",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bit.base-ui/css-components/roundness@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/css-components/roundness/index.ts",
+                "test": false,
+                "name": "index.ts"
+            },
+            {
+                "relativePath": "src/css-components/roundness/roundness-values.ts",
+                "test": false,
+                "name": "roundness-values.ts"
+            },
+            {
+                "relativePath": "src/css-components/roundness/roundness.module.scss",
+                "test": false,
+                "name": "roundness.module.scss"
+            }
+        ],
+        "mainFile": "src/css-components/roundness/index.ts",
+        "trackDir": "src/css-components/roundness",
         "origin": "AUTHORED",
         "exported": true
     },
@@ -437,18 +483,69 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/surfaces/bedrock@0.0.2": {
+    "bit.base-ui/surfaces/abs-container@0.0.2": {
         "files": [
             {
-                "relativePath": "src/surfaces/bedrock/bedrock.classes.ts",
+                "relativePath": "src/surfaces/abs-container/abs-container.module.scss",
                 "test": false,
-                "name": "bedrock.classes.ts"
+                "name": "abs-container.module.scss"
             },
             {
-                "relativePath": "src/surfaces/bedrock/bedrock.module.scss",
+                "relativePath": "src/surfaces/abs-container/containee/containee.tsx",
                 "test": false,
-                "name": "bedrock.module.scss"
+                "name": "containee.tsx"
             },
+            {
+                "relativePath": "src/surfaces/abs-container/containee/index.ts",
+                "test": false,
+                "name": "index.ts"
+            },
+            {
+                "relativePath": "src/surfaces/abs-container/containee/positions.module.scss",
+                "test": false,
+                "name": "positions.module.scss"
+            },
+            {
+                "relativePath": "src/surfaces/abs-container/container/container.tsx",
+                "test": false,
+                "name": "container.tsx"
+            },
+            {
+                "relativePath": "src/surfaces/abs-container/container/index.ts",
+                "test": false,
+                "name": "index.ts"
+            },
+            {
+                "relativePath": "src/surfaces/abs-container/index.ts",
+                "test": false,
+                "name": "index.ts"
+            }
+        ],
+        "mainFile": "src/surfaces/abs-container/index.ts",
+        "trackDir": "src/surfaces/abs-container",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bit.base-ui/surfaces/background@0.0.2": {
+        "files": [
+            {
+                "relativePath": "src/surfaces/background/background.module.scss",
+                "test": false,
+                "name": "background.module.scss"
+            },
+            {
+                "relativePath": "src/surfaces/background/index.ts",
+                "test": false,
+                "name": "index.ts"
+            }
+        ],
+        "mainFile": "src/surfaces/background/index.ts",
+        "trackDir": "src/surfaces/background",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bit.base-ui/surfaces/bedrock@0.0.4": {
+        "files": [
             {
                 "relativePath": "src/surfaces/bedrock/bedrock.tsx",
                 "test": false,
@@ -465,7 +562,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/surfaces/card@2.0.1": {
+    "bit.base-ui/surfaces/card@2.0.2": {
         "files": [
             {
                 "name": "card.module.scss",
@@ -483,23 +580,59 @@
                 "test": false
             },
             {
-                "name": "elevations.module.scss",
-                "relativePath": "src/surfaces/card/elevations.module.scss",
-                "test": false
-            },
-            {
                 "name": "index.tsx",
                 "relativePath": "src/surfaces/card/index.tsx",
                 "test": false
-            },
-            {
-                "relativePath": "src/surfaces/card/roundness.module.scss",
-                "test": false,
-                "name": "roundness.module.scss"
             }
         ],
         "mainFile": "src/surfaces/card/index.tsx",
         "trackDir": "src/surfaces/card",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bit.base-ui/surfaces/click-outside@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/surfaces/click-outside/click-outside.tsx",
+                "test": false,
+                "name": "click-outside.tsx"
+            },
+            {
+                "relativePath": "src/surfaces/click-outside/index.ts",
+                "test": false,
+                "name": "index.ts"
+            }
+        ],
+        "mainFile": "src/surfaces/click-outside/index.ts",
+        "trackDir": "src/surfaces/click-outside",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bit.base-ui/surfaces/drawer@0.0.2": {
+        "files": [
+            {
+                "relativePath": "src/surfaces/drawer/default-placeholder.tsx",
+                "test": false,
+                "name": "default-placeholder.tsx"
+            },
+            {
+                "relativePath": "src/surfaces/drawer/drawer.module.scss",
+                "test": false,
+                "name": "drawer.module.scss"
+            },
+            {
+                "relativePath": "src/surfaces/drawer/drawer.tsx",
+                "test": false,
+                "name": "drawer.tsx"
+            },
+            {
+                "relativePath": "src/surfaces/drawer/index.ts",
+                "test": false,
+                "name": "index.ts"
+            }
+        ],
+        "mainFile": "src/surfaces/drawer/index.ts",
+        "trackDir": "src/surfaces/drawer",
         "origin": "AUTHORED",
         "exported": true
     },
@@ -647,7 +780,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/color-definition@2.1.2": {
+    "bit.base-ui/theme/color-definition@2.1.3": {
         "files": [
             {
                 "name": "color-definition.module.scss",
@@ -749,7 +882,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/theme/theme-provider@2.1.2": {
+    "bit.base-ui/theme/theme-provider@2.1.3": {
         "files": [
             {
                 "name": "index.tsx",
@@ -807,5 +940,5 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "version": "14.7.7-kutner-2"
+    "version": "14.8.0-dev.5"
 }
