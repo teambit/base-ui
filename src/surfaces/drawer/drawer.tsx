@@ -119,7 +119,6 @@ export class Drawer extends Component<DrawerProps, DrawerState> {
 		const {
 			placeholder,
 			children,
-			className,
 			PlaceholderComponent = DefaultPlaceholder,
 			clickOutside,
 
@@ -154,10 +153,10 @@ export class Drawer extends Component<DrawerProps, DrawerState> {
 					onMouseEnter={this.handleEnterContainer}
 					onClick={this.handleContainerClick}
 				>
+					{children}
 					<PlaceholderComponent onClick={this.handePlaceholderClick}>
 						{placeholder}
 					</PlaceholderComponent>
-					{children}
 				</Container>
 			</ClickOutside>
 		);
