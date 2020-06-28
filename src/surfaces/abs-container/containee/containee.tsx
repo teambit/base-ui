@@ -5,6 +5,7 @@ import createRef from 'react-create-ref';
 
 import styles from '../abs-container.module.scss';
 import positionStyles from './positions.module.scss';
+import displacementStyles from './displacement.module.scss';
 
 export type Position =
 	| 'top'
@@ -30,11 +31,13 @@ export class Containee extends Component<ContaineeProps> {
 	render() {
 		const { className, position = 'bottom', ...rest } = this.props;
 		const positionClass = positionStyles[position];
+		const displacement = displacementStyles.displacement;
 
 		return (
 			<div
 				ref={this.ref}
-				className={classNames(styles.containee, positionClass, className)}
+				className={classNames(styles.containee, displacement, positionClass, className)}
+				data-position={position}
 				{...rest}
 			/>
 		);

@@ -1,0 +1,30 @@
+.displacement {
+	&[data-position^='top'] {
+		margin-bottom: var(--drawer-margin);
+	}
+	&[data-position^='right'] {
+		margin-left: var(--drawer-margin);
+	}
+	&[data-position^='bottom'] {
+		margin-top: var(--drawer-margin);
+	}
+	&[data-position^='left'] {
+		margin-right: var(--drawer-margin);
+	}
+}
+
+.displacement {
+	&[data-position='bottom-start'], &[data-position='top-start'] {
+		margin-left: var(--drawer-indent);
+	}
+	&[data-position='bottom-end'], &[data-position='top-end'] {
+		margin-right: var(--drawer-indent);
+	}
+	
+	&[data-position^='right-start'], &[data-position^='left-start'] {
+		margin-top: var(--drawer-indent);
+	}
+	&[data-position^='right-end'], &[data-position^='left-end'] {
+		margin-bottom: var(--drawer-indent);
+	}
+}

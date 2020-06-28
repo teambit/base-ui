@@ -5,8 +5,8 @@
 .containee {
 	position: absolute;
 
-	display: none;
+	visibility: hidden;
 	[data-open='true'] & {
-		display: initial;
+		visibility: visible;
 	}
 }
