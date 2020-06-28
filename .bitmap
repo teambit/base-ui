@@ -483,7 +483,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/surfaces/abs-container@0.0.2": {
+    "bit.base-ui/surfaces/abs-container@0.0.3": {
         "files": [
             {
                 "relativePath": "src/surfaces/abs-container/abs-container.module.scss",
@@ -494,6 +494,11 @@
                 "relativePath": "src/surfaces/abs-container/containee/containee.tsx",
                 "test": false,
                 "name": "containee.tsx"
+            },
+            {
+                "relativePath": "src/surfaces/abs-container/containee/displacement.module.scss",
+                "test": false,
+                "name": "displacement.module.scss"
             },
             {
                 "relativePath": "src/surfaces/abs-container/containee/index.ts",
@@ -608,7 +613,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bit.base-ui/surfaces/drawer@0.0.2": {
+    "bit.base-ui/surfaces/drawer@0.0.3": {
         "files": [
             {
                 "relativePath": "src/surfaces/drawer/default-placeholder.tsx",
