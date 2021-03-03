@@ -15,7 +15,7 @@ The [reusable set of infra-level React components](https://bit.dev/bit/base-ui)
 All components in this frontend codebase were [contained and exposed using Bit](https://github.com/teambit/bit) as a set of independently-usable components. See the **[base collection on bit.dev](https://bit.dev/teambit/base-ui)** to explore and integrate any component into your project.
 
 - Install independent components with npm/yarn.
-- Use `bit import` to source and edit components locally for quick editing and integration.
+- Use `bbit import` to source and edit components locally for quick editing and integration.
 - Try any component hands-on in a live playground.
 
 
